@@ -2,17 +2,69 @@
 <!-- The doctype declares the type of coding the HTML page uses so that the browser knows how to render it. -->
 <html lang="en">
 <!-- The  html tag contains everything on the page: head and body-->
-    <head>
 <!-- The "head" container includes all the information the browser needs to display the page -->
-			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-			<title>PlaceholderName</title>
+    <head>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- Webpage name -->        
+		<title>BlueBirdMassage</title>
+ <!--Reset css -->
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css" media="screen">
+ <!-- Grid for website -->
+    <link rel="stylesheet" href="styles/grid.css" type="text/css" media="screen">
+ <!-- Primary Stylesheet -->
+    <link rel="stylesheet" href="styles/stylesheet.css" type="text/css" media="screen">
+<!-- Font-families for CSS -->
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+<!-- Viewport for Resposive Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" >
+<!-- Favicon -->
+        <link rel="shortcut icon" href="images/bluebirdicon.jpg" type="image/jpg">
     </head>
     <body>
-    	<ul>
-    		<li>Menu</li>
-    		<li>About Me</li>
-    		<li>Contact</li>
-    		<li>Why Massage</li>
-    	</ul>
+<!-- The banner section -->
+        <div class="banner">
+           <img src= "images/banner.png" alt= "banner" type= "image/png">
+            <p class= "banner text"> Welcome to BlueBird Massage</p>
+        </div>
+<!-- The navigation section -->
+        <nav>
+        	<ul>
+        		<li><a href= "menu.html">Menu</a>
+                    <ul>
+                        <li><a href= "massage.html">Massages</a></li>
+                        <li><a href= "other.html"> Other</a></li>
+                    </ul>
+                </li>
+        		<li><a href= "about.html">About Me</a></li>
+        		<li><a href= "contact.html">Contact</a></li>
+        		<li><a href= "location.html">Location</a></li>
+        	</ul>
+        </nav>
+<!-- The main section -->
+        <div class= "main">
+            <p>Applicake cotton candy bear claw halvah. Jelly-o lollipop bear claw. Donut muffin icing jujubes carrot cake toffee sesame snaps lemon drops. Lemon drops jujubes danish jelly jelly candy dragée. Sugar plum muffin gingerbread jelly pudding. Lemon drops cheesecake biscuit jelly beans apple pie brownie biscuit tiramisu tiramisu. Brownie bonbon sweet roll marzipan. Cookie dessert chocolate cake. Sesame snaps ice cream pie sugar plum jujubes tootsie roll sesame snaps jelly cake. Bear claw oat cake topping bear claw gummi bears. Dragée carrot cake toffee tiramisu lemon drops dragée. Dragée sweet roll topping dessert. Gingerbread jelly-o chocolate icing jujubes carrot cake.</p>
+        </div> <!-- The main -->
+
+<!-- The testimonial section -->
+        <div class="testimonial">
+            <blockquote> "Jujubes toffee fruitcake liquorice powder biscuit icing jelly. Sugar plum candy topping carrot cake lemon drops jelly beans. Biscuit carrot cake carrot cake danish. Chocolate cake powder dragée apple pie gingerbread. Toffee danish cotton candy. Sugar plum sugar plum danish chocolate cake caramels bear claw cake chupa chups pudding. Muffin danish tootsie roll jelly beans sugar plum sweet marshmallow bear claw. Jelly lollipop dragée topping sweet roll. Bear claw chocolate bar tart toffee dessert chocolate bar."</blockquote>
+
+            <p> ~ T S Elliot</p>
+        </div> <!-- The testimonial-->
+
+<!-- The footer section -->
+        <div class= "footer">
+            <div class="contact">
+            <p>BlueBird Massage<br> 1234 SE Pancake Dr, Portland OR 97214 <br> <span> 503.563.1234</span></p>
+            </div><!-- contact -->
+            <div class= "copyright">
+            </div><!-- copyright -->
+            <div class= "socialmedia">
+                <p>Stay Connected</p>
+                <img src= "images/facebook.gif" alt="connect to facebook" type= "image/gif">
+                <img src= "images/twitter.gif" alt="connect to twitter" type= "image/gif">
+            </div><!-- socialmedia -->
+        </div> <!-- footer -->
     </body>
 </html>
